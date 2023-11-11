@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07 Pizza Emporium</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1 id="company"></h1>
+            <h2 id="slogan"></h2>
+        </header>
+
+        <main id="pageName">
+            <h1 id = "head1"></h1>
+            <br>
+            <h2 id = "head2"></h2>
+            <ul class = "objective">
+                <li>I can build buttons to let the user change properties.</li>
+                <li>I can create an object Literal with properties and methods.</li>
+                <li>I can access the properties and methods from an object.</li>
+                <li>I can set the properties inside an object.</li>
+                <li>I can use math operators.</li>
+                <li>I can show feedback to the user of the results being run.</li>
+                
+            </ul>
+            <h2>Click on the items in the menu to order your pizza</h2>
+            <h3>Size Options</h3>
+            <input type="radio" id="small" name="size" value="small" checked>
+            <label for="small">Small</label>
+            <input type="radio" id="medium" name="size" value="medium">
+            <label for="medium">Medium</label>
+            <input type="radio" id="large" name="size" value="large" >
+            <label for="large">Large</label>
+            <br>
+
+            <h3>Crust Options</h3>
+            <input type="radio" id="thin" name="crust" value="thin" >
+            <label for="thin">Thin</label>
+            <input type="radio" id="thick" name="crust" value="thick">
+            <label for="thick">Thick</label>
+            <input type="radio" id="stuffed" name="crust" value="stuffed" checked>
+            <label for="stuffed">Stuffed</label>
+            <br>
+
+            <h3>Topping Options</h3>
+            <input type="radio" id="sausage" name="topping" value="sausage">
+            <label for="sausage">Sausage</label>
+            <input type="radio" id="pepperoni" name="topping" value="pepperoni" >
+            <label for="pepperoni">Pepperoni</label>
+            <input type="radio" id="ham" name="topping" value="ham">
+            <label for="ham">Ham</label>
+            <input type="radio" id="chicken" name="topping" value="chicken" checked>
+            <label for="chicken">Chicken</label>
+            <br>
+
+            <h3>Veggie Topping Options</h3>
+            <input type="radio" id="pineapple" name="veggieTopping" value="pineapple" checked>
+            <label for="pineapple">Pineapple</label>
+            <input type="radio" id="peppers" name="veggieTopping" value="peppers" >
+            <label for="peppers">Peppers</label>
+            <input type="radio" id="mushrooms" name="veggieTopping" value="mushrooms">
+            <label for="mushrooms">Mushrooms</label>
+            <input type="radio" id="olives" name="veggieTopping" value="olives" >
+            <label for="olives">Olives</label>
+            <br>
+            
+
+            <h3>Ready to Order?</h3>
+            <button id="build">Build Pizza</button>
+ 
+            <h3>Shopping List</h3>
+            <button id="shopping">Your Receipt</button>
+
+            <h3>Your Message</h3>
+            <p id="feedback"></p>
+
+        </main>
+        <div class="keepOpen"></div>
+        <footer>
+            <p>&#64;UVU_DGM_2760 &#169; Austin Turner. </p>
+            <p>For educational purposes only by the "Pirates design, inc."</p>
+        </footer>
+        <script type="text/JavaScript" src="js/main.js"></script>
+    </div> 
+</body>
+</html>
